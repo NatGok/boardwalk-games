@@ -25,7 +25,7 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">
                 <img src="assets/images/logo-sm-white.png" alt="Boardwalk Games logo" class="logo">
@@ -40,13 +40,19 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="index.html#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#events" class="nav-link">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="game-library.html">Games</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="booking.html" class="btn custom-button-filled ms-lg-3">Book now</a>
                     </li>
                 </ul>
             </div>
@@ -220,7 +226,7 @@
                 </div>
             </div>
         </section>
-         <section id="reserve-game-form" class="section container mb-5">
+        <section id="reserve-game-form" class="section container mb-5">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
                     <h2 class="display-6 text-center">Reserve a game</h2>
@@ -274,6 +280,9 @@
                             </div>
                         </div>
                     </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- footer / contact section -->
@@ -343,8 +352,6 @@
                 </div>
             </div>
         </div>
-
-        
     </footer>
 
     <!-- Bootstrap JS -->
