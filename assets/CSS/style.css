@@ -138,6 +138,14 @@ h2 {
     background-color: transparent;
 }
 
+#discount {
+    background-color: var(--highlight-color);
+        justify-self: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+
 /* grid visualisation CSS for testing */
 
 /* .container,
